@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
+/* font-family: 'Bacasime Antique', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script:wght@400;500&display=swap");
+/* font-family: 'Bacasime Antique', serif; */
+/* font-family: 'Dancing Script', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.arribita {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.cabe_arriba{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 5px 10%;
+  background-image: linear-gradient(120deg, #020100 0%, #22032a 100%);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: linear-gradient(120deg, #020100 0%, #22032a 100%);
+  
+}
+.logo img {
+  height: 70px;
+  transition: all 0.3s;
+ 
+}
+
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 400;
+}
+.nav-links li a {
+  color: rgb(235, 222, 222);
+  text-decoration: none;
+  border: solid 0.5px;
+  padding: 6px 15px;
+}
+.btn {
+  text-decoration: none;
+  margin-left: 20px;
+  color: rgb(234, 229, 229);
+  padding: 6px 15px;
+  cursor: pointer;
+  border: solid 0.5px;
+}
+.btn_ubicacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.hero {
+  background-image: url(./gimnasio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+  width: 100%;
+}
+.hero-text {
+  background-color: rgba(4, 7, 32, 0.5);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgb(218, 19, 19);
+  text-shadow: 8px 10px 10px #000000;
+  border-top: none;
+  border-bottom: none;
+  padding: 90px 40px;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 800;
+}
+.about {
+  height: 700px;
+  background-image: url(./pesas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+.icons {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: rgb(180, 6, 6);
+  width: 100%;
+  margin: auto;
+  padding: 60px 10px;
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 10%;
+  width: 80%;
+}
+.about-main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about-text {
+  background-color: rgb(225, 225, 230);
+  padding: 30px;
+  width: 500px;
+}
+
+h3 {
+  font-size: 40px;
+
+  font-weight: 600;
+}
+.service {
+  padding-bottom: 100px;
+  background-color: black;
+  overflow: hidden;
+}
+.card {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: hidden;
+}
+.card-list {
+  width: 300px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+ 
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+.card-text {
+  width: 100%;
+  color: #bdbdbd;
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card_text_p {
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+
+.button_card {
+  text-decoration: none;
+  background-color: #8b29a3;
+  color: #a7b5c3;
+  width: 100%;
+  margin: 10px;
+  padding: 7px;
+  text-align: center;
+  width: 50%;
+}
+.testimony {
+  padding-bottom: 150px;
+  background-color: #0a0c0f;
+  overflow: hidden;
+}
+.testimony-main {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1;
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.testimony-image {
+  width: 380px;
+  height: 300px;
+  margin-left: 40px;
+}
+.testimony-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.testimony-text {
+  width: 40%;
+  color: #eee;
+}
+.contact {
+  background-color: #000000;
+  padding-bottom: 150px;
+}
+.contact-image {
+  width: 500px;
+  overflow: hidden;
+}
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contact-main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.contact-form {
+  background-color: #eee;
+  padding: 30px;
+}
+.input:focus,
+textarea:focus {
+  outline: 1.5px solid rgb(0, 0, 0);
+}
+
+.input,
+textarea {
+  width: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  padding: 10px !important;
+  margin: 10px 0px;
+  height: 45px;
+  border: 1px solid;
+}
+textarea {
+  height: 70px !important;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.name-list {
+  width: 48%;
+}
+.contact-address {
+  padding-bottom: 150px;
+  background-color: #000000;
+  overflow: hidden;
+}
+.contact-address-list {
+  display: flex;
+  background-color: #bbc2ce;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contact-list {
+  margin: 20px 0px !important;
+}
+h4 {
+  text-transform: uppercase;
+}
+#navDemo a {
+  font-size: 12px;
+}
+
+/*MEDIA QUERIES*/
+/* Desktop*/
+@media screen and (min-width: 1700px) {
+  section {
+    background-color: rgba(9, 15, 71, 0.9);
+  }
+  .hero {
+    margin: auto;
+    height: 900px;
+  }
+  .hero-text {
+    height: 900px;
+  }
+  .testimony-main {
+    width: 60%;
+    justify-content: space-evenly;
+  }
+  .contact-address-list {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+/* Laptops*/
+@media screen and (max-width: 1024px) {
+  .hero {
+    background-image: url(./gimnasio.jpg);
+    height: 500px;
+    background-position: center;
+  }
+  .hero-text {
+    height: 500px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .testimony-main {
+    width: 90%;
+    justify-content: space-evenly;
+  }
+}
+
+/* tablets*/
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(./gimnasio.jpg);
+    height: 600px;
+    background-position: center;
+  }
+  .hero-text {
+    height: 600px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .about {
+    overflow: hidden;
+  }
+  .about-text {
+    background-color: rgba(4, 7, 32, 0.5);
+    color: #a7b5c3;
+  }
+  .card {
+    width: 90%;
+  }
+  .card-list {
+    width: 250px;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
+
+/*celu*/
+@media screen and (max-width: 496px) {
+  .cabecero_top {
+    display: flex;
+    height: 150px;
+  }
+  .nav-links li {
+    margin: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+  }
+
+  .hero {
+    background-image: url(./gimnasio.jpg);
+    height: 500px;
+    background-position: center;
+  }
+  .hero-text {
+    height: 500px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .about-text {
+    background-color: rgba(4, 7, 32, 0.3);
+  }
+  .title {
+    font-size: 30px;
+    padding: 30px 10px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .about {
+    height: 500px;
+    overflow: hidden;
+    background-position-x: left;
+  }
+  .about-text{
+color: #a7b5c3;
+
+  }
+  .card {
+    width: 100%;
+  }
+  .card-list {
+    width: 300px;
+  }
+  .testimony-main {
+    justify-content: center;
+  }
+  .testimony-text {
+    width: 80%;
+  }
+  .testimony-image {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .contact-main {
+    width: 90%;
+    margin: auto;
+  }
+  .name {
+    flex-direction: column;
+  }
+  .name-list {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .contact-list {
+    width: 80%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    color: #000000;
+  }
+  .contact-list p {
+    font-size: 13px;
+  }
+}
